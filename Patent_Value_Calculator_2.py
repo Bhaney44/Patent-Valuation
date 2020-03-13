@@ -1,4 +1,5 @@
 #Patent Value Calculator
+#Copyright Brian S. Haney 2020
 
 # Widgets:
 from tkinter import *

@@ -1,2 +1,2 @@
 # Patent-Valuation
-This repository contains a demo for a patent value calculator.
+This repository contains prototype code for a patent value calculator.

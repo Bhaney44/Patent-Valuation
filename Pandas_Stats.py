@@ -14,9 +14,39 @@ print(df.columns)
 print("-----")
 
 print(df.describe())
+
+#print mediuan
+print('median')
 print(df.median())
+print("-----")
+
+#Mode
+print('mode')
 print(df.mode())
+print("-----")
+#Variance
+print('variance')
 print(df.var())
+print("-----")
+#Co-Variance
+print('co-variance')
+print(df.cov())
+
+#Cumsum
+print('Cumsum')
+print(df.cumsum())
+
+#Scalar Map
+#print('Map')
+#print(df.applymap())
+
+#Multiply
+#print('Multiply')
+#print(df.mul())
+
+#Modulo
+#print('Modulo')
+#print(df.mod())
 
 
 #print(df.columns)

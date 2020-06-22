@@ -3,7 +3,7 @@ from pandas import DataFrame
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-df = pd.read_csv('Total_Python.csv')
+df = pd.read_csv('Lite_Coin_12_Mos.csv')
 
 
 print(df.head())
@@ -25,6 +25,8 @@ print('mode')
 print(df.mode())
 print("-----")
 #Variance
+##In probability theory and statistics, variance is the expectation of the squared deviation of a random variable from its mean.
+##Informally, it measures how far a set of numbers are spread out from their average value.
 print('variance')
 print(df.var())
 print("-----")
@@ -33,8 +35,8 @@ print('co-variance')
 print(df.cov())
 
 #Cumsum
-print('Cumsum')
-print(df.cumsum())
+#print('Cumsum')
+#print(df.cumsum())
 
 #Scalar Map
 #print('Map')
